@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.input .text{
+    width: 600px;
+    height: 50px;
+    margin: 100px 0;
+    background-color: honeydew;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+.input .button{
+    width: 100px;
+    height: 50px;
+    margin: 100px 0;
+    background-color: honeydew;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    border-radius: 3px;
+    transition: 0.6sec ease;
+}
+
+.input .button:hover{
+    background-color: lightcoral;
+}
+
+.display{
+    font-family: Arial, Helvetica, sans-serif;
+    color: maroon;
+}
+
+.display .temp{
+    color: orangered;
+}
+
+.display .humidity{
+    color: orangered;
+}
+    
+
